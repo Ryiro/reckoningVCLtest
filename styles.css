@@ -1,0 +1,88 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define styles for sections */
+section {
+    padding:  0;
+    text-align: center;
+}
+
+
+/* V1 & V2 & group stage background css */
+
+.image-container {
+    width: 100%; /* Adjust this percentage as needed */
+    position: relative;
+    min-width: 200px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+.responsive-image::before {
+    content: "";
+    display: block;
+}
+
+
+/*Kaspeesky buy button */
+
+button{
+    font-size: 3vw;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.buy {
+    position: absolute;
+    top:10%;
+    left:74%;
+    width: 23%;
+    height: 58%;
+    border-radius: 15px;
+    border-color: white;
+    color: #30ac94;
+    font-weight: bold;
+    
+}
+
+.group-stage-1{
+    position: absolute;
+    top: 28%;
+    left:7%;
+    width: 42%;
+    height: 62%;
+}
+.group-stage-2{
+    position: absolute;
+    top: 28%;
+    left:50%;
+    width: 42%;
+    height: 62%;
+}
+
+
+/* Style the content within sections */
+.content {
+    color: #000;
+}
+
+/* Style video containers */
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style Instagram Reels container (customize as per Instagram's embed code) */
+.instagram-embed {
+    /* Add styles for Instagram Reels container */
+}
+
+/* Add more custom styles as needed */
