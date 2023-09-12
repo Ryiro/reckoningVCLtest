@@ -166,7 +166,46 @@ button:hover{
     opacity: 0;
     font-size: 2vw;
 }
-
+.reelvid-1 {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    width: 21%;
+    height: 65%;
+    border-width: 0px;
+}
+.reelvid-2 {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: absolute;
+    top: 25%;
+    left: 28.5%;
+    width: 21%;
+    height: 65%;
+    border-width: 0px;
+}
+.reelvid-3 {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 21%;
+    height: 65%;
+    border-width: 0px;
+}
+.reelvid-4 {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: absolute;
+    top: 25%;
+    left: 71.5%;
+    width: 21%;
+    height: 65%;
+    border-width: 0px;
+}
 
 /* Style Instagram Reels container (customize as per Instagram's embed code) */
 .instagram-embed {
