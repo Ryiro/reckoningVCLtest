@@ -68,6 +68,41 @@ button:hover{
     height: 62%;
 }
 
+.playoffs-stage-1{
+    position: absolute;
+    top: 23%;
+    left:8%;
+    width: 28%;
+    height: 41%;
+}
+.playoffs-stage-2{
+    position: absolute;
+    top: 23%;
+    left:37%;
+    width: 28%;
+    height: 41%;
+}
+
+.playoffs-stage-3{
+    position: absolute;
+    top: 23%;
+    left:66%;
+    width: 28%;
+    height: 41%;
+}
+.youtube {
+    border-color: white;
+    border-width: 3px;
+}
+
+.grand-finals-1{
+    position: absolute;
+    top: 17%;
+    left:7%;
+    width: 65%;
+    height: 70%;
+}
+
 
 /* Style the content within sections */
 .content {
@@ -75,10 +110,63 @@ button:hover{
 }
 
 /* Style video containers */
-.video-container {
+/* .video-container {
     max-width: 800px;
     margin: 0 auto;
+} */
+
+.reck_insta {
+    position: absolute;
+    top:31%;
+    left:65%;
+    width: 14%;
+    height: 13%;
+    background-color: blue;
+    color: transparent;
+    border-radius: 0;
+    opacity: 0;
+    font-size: 2vw;
 }
+
+.reck_twitter {
+    position: absolute;
+    top:31%;
+    left:80%;
+    width: 14%;
+    height: 13%;
+    background-color: blue;
+    color: transparent;
+    border-radius: 0;
+    opacity: 0;
+    font-size: 2vw;
+}
+
+.kasp_insta {
+    position: absolute;
+    top:70%;
+    left:65%;
+    width: 14%;
+    height: 13%;
+    background-color: blue;
+    color: transparent;
+    border-radius: 0;
+    opacity: 0;
+    font-size: 2vw;
+}
+
+.kasp_twitter {
+    position: absolute;
+    top:70%;
+    left:80%;
+    width: 14%;
+    height: 13%;
+    background-color: blue;
+    color: transparent;
+    border-radius: 0;
+    opacity: 0;
+    font-size: 2vw;
+}
+
 
 /* Style Instagram Reels container (customize as per Instagram's embed code) */
 .instagram-embed {
